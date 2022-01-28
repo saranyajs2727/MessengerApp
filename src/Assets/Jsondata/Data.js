@@ -97,7 +97,7 @@ export default [{
       content: 'Who sus?',
       createdAt: '2020-10-02T15:40:00.000Z',
     },
-    newMessages: 7,
+    newMessages: 3,
   }, {
     id: '7',
     users: [{

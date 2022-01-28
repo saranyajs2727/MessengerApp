@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { View, Image, Text, FlatList } from 'react-native'
 import { useTheme } from '@/Hooks'
-import Data from './Data'
-import { loadResources } from 'i18next'
 
 
 const User= ( {ChatBox }) => {
