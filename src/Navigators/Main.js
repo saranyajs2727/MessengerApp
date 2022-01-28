@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { ExampleContainer, StartupContainer } from '@/Containers'
+import { ChatRoom, ExampleContainer, StartupContainer } from '@/Containers'
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { SafeAreaView, StatusBar } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
@@ -39,7 +39,7 @@ const MainNavigator = () => {
         />
          <Tab.Screen
         name="Data"
-        component={ExampleContainer}
+        component={ChatRoom}
         options={{
           tabBarLabel: '',
          tabBarIcon: ({ color }) => (

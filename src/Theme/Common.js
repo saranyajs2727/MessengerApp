@@ -73,8 +73,38 @@ export default function ({ Colors, ...args }) {
         fontSize:12,
         fontWeight:"bold",
         
+      },
+      img:{
+        alignItems: "center",
+        justifyContent:"center",
+        height:300,
+        width:400,
+        marginTop:30,
+     },
+      screen:{
+      
+      },
+     title :{
+       fontWeight:"bold",
+       fontSize:50,
+       color:Colors.white,
+       marginLeft:20,
+       letterSpacing:5,
+      },
+      talk :{
+        color:Colors.white,
+        marginLeft:20,
+        fontSize:15,
+        letterSpacing:2,
+        marginTop:10,
+      },
+      btn :{
+        marginTop:20,
+        color:"black"
+      },
+      button:{
+       color:"black"
       }
-   
     }),
   }
 }
