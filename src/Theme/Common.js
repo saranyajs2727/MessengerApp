@@ -104,7 +104,21 @@ export default function ({ Colors, ...args }) {
       },
       button:{
        color:"black"
-      }
+      },
+      page:{
+        backgroundColor:Colors.white,
+
+      },
+      Message:{
+         color:Colors.white,
+      },
+      ChatScreen:{
+         backgroundColor:Colors.blue,
+         padding:10,
+         margin:10,
+         borderRadius:10,
+        maxWidth:"75%",
+      },
     }),
   }
 }

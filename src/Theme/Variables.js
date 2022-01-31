@@ -15,7 +15,7 @@ export const Colors = {
   white: '#ffffff',
   text: '#212529',
   primary: '#E14032',
-  blue:"#7b8aff",
+  blue:"#3777f0",
   lightblue:"#3872E9",
   success: '#28a745',
   error: '#dc3545',

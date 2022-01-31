@@ -3,12 +3,19 @@ import React from 'react'
 import { View, Image, Text,ScrollView } from 'react-native'
 import { useTheme } from '@/Hooks'
 
-const ChatScreen = () => {
-  const { Layout, Images ,Common , Fonts } = useTheme()
+const blue="#3777f0";
+const grey="lightgrey";
+ const myId='u1';
 
+const ChatScreen = ( {message}) => {
+  const { Layout, Images ,Common , Fonts } = useTheme()
+  console.log(message);
+  const isMe = message.user.id === myId;
   return ( 
- <View>
-   <Text>gekjh</Text>
+ <View style={[Common.ChatScreen, {backgroundColor: isMe ? grey : blue ,marginLeft :isMe  ? 'auto' : 10},
+ 
+ ]}>
+   <Text style={{ color : isMe ? 'black' : 'white'}}>{message.content}</Text>
  </View>
   )
 }
