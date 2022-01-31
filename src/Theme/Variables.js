@@ -19,6 +19,7 @@ export const Colors = {
   lightblue:"#3872E9",
   success: '#28a745',
   error: '#dc3545',
+  grey:  '#A9A9A9',
 }
 
 export const NavigationColors = {

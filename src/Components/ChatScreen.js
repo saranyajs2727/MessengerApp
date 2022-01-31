@@ -12,9 +12,7 @@ const ChatScreen = ( {message}) => {
   console.log(message);
   const isMe = message.user.id === myId;
   return ( 
- <View style={[Common.ChatScreen, {backgroundColor: isMe ? grey : blue ,marginLeft :isMe  ? 'auto' : 10},
- 
- ]}>
+ <View style={[Common.ChatScreen ,isMe ? Common.leftContainer : Common.rightContainer]}>
    <Text style={{ color : isMe ? 'black' : 'white'}}>{message.content}</Text>
  </View>
   )
